@@ -11,13 +11,14 @@ Below are example predictions made by the app:
 ### ✅ Positive Review
 ![WhatsApp Image 2025-06-20 at 05 12 07_41078717](https://github.com/user-attachments/assets/47a46e73-00ec-4e84-9551-09b892c9e863)
 
-![Positive Review](images/positive_review.jpg)
 
 ### ❌ Negative Review
-![Negative Review](images/negative_review.jpg)
+![Negative Review]![WhatsApp Image 2025-06-20 at 05 15 36_309c94cb](https://github.com/user-attachments/assets/32bfb34f-c610-4927-ad14-bbff1f78be89)
+
 
 ### 😕 Another Negative Example
-![Climax Negative](images/climax_negative.jpg)
+![Climax Negative]![WhatsApp Image 2025-06-20 at 05 15 12_720a91ed](https://github.com/user-attachments/assets/2dce6d2f-2284-430c-9165-f5e8220315d4)
+
 
 ---
 
