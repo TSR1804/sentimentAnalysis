@@ -75,7 +75,8 @@ This project aims to simulate a real-world ML pipeline by including:
 )
 
 ### 😕 Negative Review (Climax issues)  
-![Climax Negative](images/climax_negative.jpg)
+![WhatsApp Image 2025-06-20 at 05 15 12_0ff61c0d](https://github.com/user-attachments/assets/53297d48-7b44-49e0-bed1-c5228fb0b2c1)
+
 
 ---
 
