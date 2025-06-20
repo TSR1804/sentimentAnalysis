@@ -1,47 +1,144 @@
+
 # 🎬 Movie Review Sentiment Classifier
 
-This project is a **Sentiment Analysis Web App** that classifies movie reviews as **Positive** or **Negative** using a deep learning model built with **LSTM (Long Short-Term Memory)** networks. The model was trained on the **IMDB dataset** consisting of 50,000 reviews and is integrated into a simple frontend using **Streamlit** and a **Flask API backend**.
+### Predict the Sentiment of Movie Reviews using Deep Learning  
+A web application that analyzes the sentiment (Positive/Negative) of movie reviews using an LSTM-based neural network trained on the IMDB dataset. Built with TensorFlow and deployed via a user-friendly interface powered by Streamlit and Flask.
 
 ---
 
-## 🔍 Demo
-
-Below are example predictions made by the app:
-
-### ✅ Positive Review
-![WhatsApp Image 2025-06-20 at 05 12 07_41078717](https://github.com/user-attachments/assets/47a46e73-00ec-4e84-9551-09b892c9e863)
-
-
-### ❌ Negative Review
-[WhatsApp Image 2025-06-20 at 05 15 36_309c94cb](https://github.com/user-attachments/assets/32bfb34f-c610-4927-ad14-bbff1f78be89)
-
-
-### 😕 Another Negative Example
-[WhatsApp Image 2025-06-20 at 05 15 12_720a91ed](https://github.com/user-attachments/assets/2dce6d2f-2284-430c-9165-f5e8220315d4)
-
+## 📑 Table of Contents
+- [Introduction](#introduction)  
+- [Features](#features)  
+- [How It Works](#how-it-works)  
+- [Technologies Used](#technologies-used)  
+- [Screenshots](#screenshots)  
+- [Installation](#installation)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+- [Acknowledgements](#acknowledgements)  
 
 ---
 
-## 📌 Features
+## 📌 Introduction
 
-- Binary classification: **Positive** or **Negative** sentiment
-- Powered by **LSTM** for sequential modeling
-- Preprocessing using **Tokenizer** and **Padding**
-- Simple and interactive **Streamlit UI**
-- RESTful prediction endpoint via **Flask**
-- Trained accuracy: **89.02%**
+The **Movie Review Sentiment Classifier** is a deep learning-based project that classifies user-input movie reviews as either **Positive** or **Negative**. The model uses **LSTM (Long Short-Term Memory)** layers for learning from sequential data and is trained on 50,000 movie reviews from the [IMDB dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
----
-
-## 🛠️ Tech Stack
-
-- **Python**
-- **TensorFlow / Keras**
-- **Flask**
-- **Streamlit**
-- **Scikit-learn**
-- **Pandas, NumPy, Matplotlib**
-- **IMDB Kaggle Dataset**
+This project aims to simulate a real-world ML pipeline by including:
+- Model training
+- Saving/loading `.h5` and `tokenizer.pkl`
+- Flask API serving predictions
+- Streamlit UI for interactive review submission
 
 ---
 
+## 🚀 Features
+
+- 🎯 **Accurate Classification** — Achieves 89.02% accuracy on test data  
+- 🧠 **Deep Learning Model** — Uses an LSTM layer for text sequence modeling  
+- ⚙️ **Real-time Predictions** — Integrated Flask backend for API handling  
+- 💡 **Streamlit UI** — Intuitive interface for sentiment prediction  
+- 📦 **Pretrained Model Support** — Load and predict using `sentiment_model.h5` and `tokenizer.pkl`  
+- 📝 **Confidence Score Output** — Displays sentiment with prediction confidence
+
+---
+
+## 🔎 How It Works
+
+1. **User Input**: Enter any movie review in the Streamlit UI  
+2. **Preprocessing**: Tokenized and padded to match model input  
+3. **Prediction**: The LSTM model outputs a sentiment score  
+4. **Output**: Displays **Positive** or **Negative** label with emoji and confidence
+
+---
+
+## 🛠️ Technologies Used
+
+| Category       | Tools & Frameworks                      |
+|----------------|-----------------------------------------|
+| **Language**   | Python 3.10                             |
+| **Model**      | TensorFlow, Keras                       |
+| **UI**         | Streamlit                              |
+| **API**        | Flask                                  |
+| **Data**       | IMDB Movie Review Dataset (Kaggle)     |
+| **Others**     | NumPy, Pandas, Scikit-learn, Matplotlib |
+
+---
+
+## 🖼️ Screenshots
+
+### ✅ Positive Review  
+![Positive](images/positive_review.jpg)
+
+### ❌ Negative Review (Poor storyline)  
+![Negative](images/negative_review.jpg)
+
+### 😕 Negative Review (Climax issues)  
+![Climax Negative](images/climax_negative.jpg)
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/sentimentAnalysis.git
+cd sentimentAnalysis
+```
+
+### 2. Create a Virtual Environment
+```bash
+conda create -n sentiment_env python=3.10
+conda activate sentiment_env
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run Flask API
+```bash
+python app.py
+```
+
+### 5. Run Streamlit App (New Terminal)
+```bash
+streamlit run streamlit_app.py
+```
+
+---
+
+## 🧱 Project Structure
+
+```
+.
+├── model/
+│   ├── sentiment_model.h5
+│   └── tokenizer.pkl
+├── app.py
+├── utils.py
+├── streamlit_app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 👩‍💻 Contributing
+
+Feel free to fork this repository and open pull requests. Suggestions and improvements are always welcome!
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## 🙏 Acknowledgements
+
+- **Dataset**: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- **Frameworks**: TensorFlow, Keras, Streamlit, Flask  
+- **Inspiration**: Real-world NLP use cases in production APIs  
