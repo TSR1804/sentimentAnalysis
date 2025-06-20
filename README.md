@@ -68,13 +68,14 @@ This project aims to simulate a real-world ML pipeline by including:
 ## 🖼️ Screenshots
 
 ### ✅ Positive Review  
-![Positive](images/positive_review.jpg)
+![WhatsApp Image 2025-06-20 at 05 14 48_ccf5b59e](https://github.com/user-attachments/assets/df433c6a-8bb7-4559-a5fd-d6dbc6f845be)
 
-### ❌ Negative Review (Poor storyline)  
+
+### ❌ Negative Review   
 ![Negative](![WhatsApp Image 2025-06-20 at 05 15 36_14f4911b](https://github.com/user-attachments/assets/8ee888f2-edca-44ef-894e-1713adee8e57)
 )
 
-### 😕 Negative Review (Climax issues)  
+### 😕 Negative Review   
 ![WhatsApp Image 2025-06-20 at 05 15 12_0ff61c0d](https://github.com/user-attachments/assets/53297d48-7b44-49e0-bed1-c5228fb0b2c1)
 
 
