@@ -13,11 +13,11 @@ Below are example predictions made by the app:
 
 
 ### ❌ Negative Review
-![Negative Review]![WhatsApp Image 2025-06-20 at 05 15 36_309c94cb](https://github.com/user-attachments/assets/32bfb34f-c610-4927-ad14-bbff1f78be89)
+[WhatsApp Image 2025-06-20 at 05 15 36_309c94cb](https://github.com/user-attachments/assets/32bfb34f-c610-4927-ad14-bbff1f78be89)
 
 
 ### 😕 Another Negative Example
-![Climax Negative]![WhatsApp Image 2025-06-20 at 05 15 12_720a91ed](https://github.com/user-attachments/assets/2dce6d2f-2284-430c-9165-f5e8220315d4)
+[WhatsApp Image 2025-06-20 at 05 15 12_720a91ed](https://github.com/user-attachments/assets/2dce6d2f-2284-430c-9165-f5e8220315d4)
 
 
 ---
@@ -44,6 +44,4 @@ Below are example predictions made by the app:
 - **IMDB Kaggle Dataset**
 
 ---
-
-## 📁 Project Structure
 
